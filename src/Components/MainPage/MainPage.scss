@@ -1,0 +1,46 @@
+.background{
+    background: url(stayAtHome.jpg);
+    background-size: cover;
+    background-position: bottom;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: fixed;
+    top: -1.5vw;
+    bottom: -1.5vw;
+    left: -1.5vw;
+    right: -1.5vw;
+    text-align: center;
+}
+.all-counters-box{
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    display: block;
+    width: 100vw;
+    margin: 13vh auto 0;
+    br{
+        margin: 0;
+    }
+    .counter-box{
+        margin:  3vh 7vw;
+    }
+}
+.today-counters-box{
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    display: block;
+    width: 100vw;
+    margin: 0 auto 10vh auto;
+    bottom: 5vh;
+    h2{
+        font-size: xx-large;
+        color: #ffffff;
+        text-shadow: 0 0 4px #222;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .counter-box{
+        margin:  2vh 2vw;
+    }
+}
