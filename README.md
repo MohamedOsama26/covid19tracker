@@ -1,5 +1,3 @@
-This project on http://covid19tracker.ankh-eg.com/
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
